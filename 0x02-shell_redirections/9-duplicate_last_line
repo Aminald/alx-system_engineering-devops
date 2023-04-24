@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i 's/STEVEN/COOK/g' $(grep -rl 'STEVEN' .)

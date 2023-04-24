@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name "*.js" -execdir wc -l {} + | sort -n | awk '{print $1}' | awk 'END{print}'

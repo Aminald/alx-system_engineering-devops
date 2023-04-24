@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "I am executing commands with my eyes closed" 2>&1 | tee /tmp/echo_to_stdout_and_stderr

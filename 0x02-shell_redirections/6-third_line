@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo find /var/log -type f -printf "%f\n" | grep ".*\.[0-9]*$" | sort -V | sed 's/^/[/; s/$/]/' | tr -d '\n'
